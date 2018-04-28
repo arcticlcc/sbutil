@@ -28,5 +28,5 @@ with open(sys.argv[1], 'rb') as csvfile:
             item=row[0], url=row[1])
 
         item = sb.get_item(row[0])
-        # s.upload_file_to_item(item, row[1])
+        s.upload_file_to_item(item, row[1])
 print "\nDone!\n"
